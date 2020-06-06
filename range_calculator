@@ -1,0 +1,9 @@
+count1=input("enter number of occurance starts :")
+start=int(count1)
+count2=input("enter number of occurance ends :")
+end=int(count2)+1
+
+tot=0
+for i in range (start,end):
+    tot=tot+i
+print(tot)
